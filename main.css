@@ -1,6 +1,6 @@
 .set {
 	position: relative;
-	left: 15px;
+	margin-left: 10px;
 	font-family: sans-serif;
 	font-size: small;
 	vertical-align: middle;
@@ -15,13 +15,54 @@
 	object-fit: contain;
 }
 
-.id {
-	display: inline;
+.id, .label {
 	font-family: monospace;
+}
+
+.icon, .name, .id, .label {
+	display: inline;
+}
+
+.label {
+	padding: 3px;
+	border-radius: 5px;
+	vertical-align: middle;
+	border: solid 1px;
+	font-size: x-small;
 }
 
 .year {
 	font-family: sans-serif;
 	font-size: x-small;
 	font-weight: bold;
+}
+
+a:link, a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
+
+.core.label {
+	background-color: lightyellow;
+	border-color: darkkhaki;
+}
+
+.joke.label {
+	background-color: lightsalmon;
+	border-color: darkred;
+}
+
+.modern.label {
+	background-color: lightblue;
+	border-color: darkslateblue;
+}
+
+.starter.label {
+	background-color: palegreen;
+	border-color: darkgreen;
 }
