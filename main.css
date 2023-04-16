@@ -7,7 +7,7 @@
 	line-height: 4ex;
 }
 
-.set svg, .set img {
+.icon svg, .set img {
 	width: 3ex;
 	height: 3ex;
 	padding: 1px;
@@ -27,14 +27,21 @@
 	padding: 3px;
 	border-radius: 5px;
 	vertical-align: middle;
-	border: solid 1px;
+	border: dashed 1px;
 	font-size: x-small;
+	cursor: default;
 }
 
 .year {
 	font-family: sans-serif;
 	font-size: x-small;
 	font-weight: bold;
+	color: white;
+	background-color: black;
+	width: 4em;
+	padding: 1px;
+	border-radius: 5px;
+	text-align: center;
 }
 
 a:link, a:visited {
@@ -50,19 +57,23 @@ a:hover, a:active {
 .core.label {
 	background-color: lightyellow;
 	border-color: darkkhaki;
+	color: brown;
 }
 
 .joke.label {
 	background-color: lightsalmon;
 	border-color: darkred;
+	color: darkred;
 }
 
 .modern.label {
 	background-color: lightblue;
 	border-color: darkslateblue;
+	color: darkblue;
 }
 
 .starter.label {
 	background-color: palegreen;
 	border-color: darkgreen;
+	color: darkgreen;
 }
