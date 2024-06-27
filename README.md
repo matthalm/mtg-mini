@@ -3,4 +3,4 @@ There are too many random MTG sets, with too many versions. This page just lists
 
 This is more useful/necessary for sets since Throne of Eldraine, but all are included here for completeness.
 
-SVG data obtained from Scryfall. Alpha/Beta/Unlimited/Revised use set images from draftsim.com.
+SVG data obtained from Scryfall. Alpha/Beta/Unlimited/Revised use set icons obtained from https://draftsim.com.
