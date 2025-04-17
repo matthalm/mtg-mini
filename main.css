@@ -77,3 +77,9 @@ a:hover, a:active {
 	border-color: darkgreen;
 	color: darkgreen;
 }
+
+.ub.label {
+	background-color: lightpink;
+	border-color: hotpink;
+	color: hotpink;
+}
