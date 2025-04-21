@@ -7,7 +7,7 @@
 	line-height: 4ex;
 }
 
-.icon svg, .set img {
+.icon svg, .icon img {
 	width: 3ex;
 	height: 3ex;
 	padding: 1px;
@@ -15,7 +15,7 @@
 	object-fit: contain;
 }
 
-.id, .label {
+.id, .label, .icon {
 	font-family: monospace;
 }
 
@@ -82,4 +82,9 @@ a:hover, a:active {
 	background-color: lightpink;
 	border-color: hotpink;
 	color: hotpink;
+}
+
+hr {
+	border-top: 1px dashed;
+	border-bottom: 0px;
 }
